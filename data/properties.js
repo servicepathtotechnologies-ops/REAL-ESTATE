@@ -1,0 +1,35 @@
+export const properties = [
+    {
+        id: 'prop-1',
+        title: 'Luxury 3BHK Apartment',
+        location: 'Kondapur, Hyderabad',
+        price: '₹1.85 Cr',
+        beds: 3,
+        baths: 3,
+        sqft: '2,200',
+        type: 'Apartment',
+        image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80',
+    },
+    {
+        id: 'prop-2',
+        title: 'Premium 4BHK Villa',
+        location: 'Jubilee Hills, Hyderabad',
+        price: '₹5.50 Cr',
+        beds: 4,
+        baths: 5,
+        sqft: '4,500',
+        type: 'Villa',
+        image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80',
+    },
+    {
+        id: 'prop-3',
+        title: 'Modern Commercial Space',
+        location: 'Banjara Hills, Hyderabad',
+        price: '₹3.20 Cr',
+        beds: 0,
+        baths: 2,
+        sqft: '3,000',
+        type: 'Commercial',
+        image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80',
+    }
+];
