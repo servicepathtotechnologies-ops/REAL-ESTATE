@@ -8,11 +8,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "#F8FAFC",
-        foreground: "#0A1628",
-        navy: "#0A1628",
-        gold: "#D4AF37",
-        blueActive: "#2563EB"
+        background: "#FAF9F6", // Warm off-white
+        foreground: "#2D2D2D", // Charcoal body text
+        navy: "#1A2B4A",       // Deep navy blue
+        gold: "#C9A84C",       // Rich gold
+      },
+      fontFamily: {
+        sans: ['var(--font-inter)', 'sans-serif'],
+        serif: ['var(--font-playfair)', 'serif'],
       },
     },
   },
